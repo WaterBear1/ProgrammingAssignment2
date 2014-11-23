@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 ##  MFC Comments:  This function calculates the mean of makeCacheMatrix, after checking if 
-## it has already been calculated and if so it will use the cached version
+## it has already been calculated and if so it will use the cached version - based on provided code
 
 cacheSolve <- function(x, ...) {
   m <- x$getmean()
