@@ -1,8 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
 ## MFC Comments:  This function sets & gets the value of the vector, then sets and gets the value of the mean
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -36,5 +34,5 @@ cacheSolve <- function(x, ...) {
   m <- mean(data, ...)
   x$setmean(m)
   m
-        ## Should return a matrix that is the inverse of 'x'
+        ## This should return a matrix that is the inverse of 'x'
 }
