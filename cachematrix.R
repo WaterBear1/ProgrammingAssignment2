@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## MFC Comments:  This function sets & gets the value of the vector, then sets and gets the value of the mean
+## MFC Comments:  This is a function to set & get the value of the vector, then set and get the value of the mean
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
