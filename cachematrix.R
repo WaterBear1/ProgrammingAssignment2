@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## MFC Comments:  This is a function to set & get the value of the vector, then set and get the value of the mean
+## My Comments:  This is a function to set & get the value of the vector, then set and get the value of the mean
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
-##  MFC Comments:  This function calculates the mean of makeCacheMatrix, after checking if 
+##  My Comments:  This function calculates the mean of makeCacheMatrix, after checking if 
 ## it has already been calculated and if so it will use the cached version - based on provided code
 
 cacheSolve <- function(x, ...) {
